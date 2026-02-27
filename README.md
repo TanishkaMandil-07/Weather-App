@@ -1,74 +1,112 @@
 🌦️ Weather Forecast Web App
-A modern, responsive Weather Forecast Web Application built using HTML, CSS, and JavaScript, powered by the OpenWeatherMap API.
-This app allows users to search for any city and instantly view real-time weather conditions with beautiful visuals and animations.
+
+A modern, responsive Weather Forecast Web Application built using HTML, CSS, and JavaScript, powered by the OpenWeather API.
+
+This app allows users to search for any city worldwide and instantly view real-time weather conditions with beautiful dynamic backgrounds and smooth animations.
+
+📌 Project Overview
+
+The Weather Forecast Web App provides real-time weather data including:
+
+🌡️ Current Temperature
+
+☁️ Weather Condition & Description
+
+💧 Humidity
+
+💨 Wind Speed
+
+🌅 Sunrise & Sunset Time
+
+The UI dynamically adapts its background and theme based on the weather condition, creating an immersive user experience.
 
 ✨ Features
-🔍 Search weather by city name
-🌡️ Displays temperature (°C)
-☁️ Shows weather condition & description
-💧 Humidity, 💨 Wind speed
-🌅 Sunrise & Sunset time
-🖼️ Dynamic background images based on weather
-🎨 Clean & modern UI with smooth animations
-🧊 Handles negative temperature (cold weather) properly
-🌍 Default placeholder content before search
-🛠️ Technologies Used
-HTML5 – Structure
-CSS3 – Styling, animations & hover effects
-JavaScript (ES6) – Logic & API handling
-OpenWeatherMap API – Real-time weather data
-📸 UI Preview
-Thunderstorm 🌩️ → Dark dramatic background
-Clear ☀️ → Bright sky image
-Clouds ☁️ → Soft cloudy visuals
-Rain 🌧️ → Rainy background
-Snow ❄️ / Cold 🧊 → Icy theme
-Haze / Fog 🌫️ → Misty visuals
-🚀 How It Works
-User enters a city name in the search bar
-App fetches data from OpenWeatherMap API
-Weather details are displayed dynamically
-Background image changes according to weather
-Side panel shows detailed weather info
-🔑 API Setup
-This project uses OpenWeatherMap API
 
-Go to: https://openweathermap.org/api
-Create a free account
-Generate your API Key
-Add it in script.js
-const apiKey = "YOUR_API_KEY_HERE";
+✔️ Search weather by city name
+✔️ Displays temperature in °C
+✔️ Shows weather condition & description
+✔️ Displays humidity & wind speed
+✔️ Shows sunrise & sunset timing
+✔️ Dynamic background images based on weather
+✔️ Smooth animations & modern UI
+✔️ Handles negative temperatures correctly 🧊
+✔️ Default placeholder UI before search
+✔️ Error handling for invalid city names
+
+🎨 UI Preview
+☀️ Clear Weather
+4
+🌧️ Rainy Weather
+4
+❄️ Snow / Cold Weather
+4
+🛠️ Tech Stack
+Technology	Purpose
+HTML5	Structure of the application
+CSS3	Styling, animations & responsiveness
+JavaScript (ES6)	Logic & API integration
+OpenWeather API	Real-time weather data
+⚙️ How It Works
+
+User enters a city name in the search bar.
+
+JavaScript fetches data from the OpenWeather API.
+
+The response (JSON format) is parsed.
+
+Weather data is dynamically injected into the DOM.
+
+Background theme updates according to the weather condition.
+
+
 📂 Project Structure
-pgsql
-Copy code
 Weather-App/
 │
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-🎯 Learning Outcomes
+├── index.html        # Main HTML file
+├── style.css         # Styling & animations
+├── script.js         # JavaScript logic & API calls
+└── README.md         # Project documentation
+📚 Learning Outcomes
+
+Through this project, I practiced:
+
 Working with REST APIs
 
 Handling JSON data
 
-DOM manipulation
+DOM manipulation using JavaScript
 
-Responsive UI design
+Asynchronous programming (fetch & promises)
 
-Real-world JavaScript logic
+Building responsive UI design
 
-Clean & professional frontend design
+Creating dynamic background changes
 
-💡 Future Improvements
-📍 Auto-detect location weather
+Writing clean & maintainable frontend code
 
-📆 5-day forecast
+🚀 Future Improvements
 
-🌙 Dark / Light mode toggle
+🔹 Auto-detect user location weather
+🔹 5-Day weather forecast
+🔹 Dark / Light mode toggle
+🔹 Weather icons animation
+🔹 Map integration
+🔹 Unit conversion (°C ↔ °F)
 
-🗺️ Map integration
+📦 Installation & Usage
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
+open index.html
+
+No additional dependencies required.
+
+⚠️ Disclaimer
+
+This project is developed for educational and portfolio purposes only.
+Weather data is provided by the OpenWeather API.
 
 👩‍💻 Author
-setu Singh
-Frontend Developer | Weather App Project
+
+Tanishka Mandil
+Frontend Developer
+🌐 Passionate about building interactive web applications
